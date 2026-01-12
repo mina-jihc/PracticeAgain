@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSCode</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #181818;
+            margin: 0;
+            padding: 0;
+        }
+        .top {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        header p {           
+            color:  white;
+            font-family: sans-serif;
+        }
+        .container {
+            color: transparent;
+            margin-left: 7px;
+            font-family: sans-serif;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        
+        /*.last {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 360px;
+            gap: 20px;
+        }*/
+        .expl {
+            display: flex;
+            margin-left: 60px;
+            margin-top: -270px;
+            align-items: center;
+            gap: 100px;
+            font-family: sans-serif;
+        }
+        input {
+            border-radius: 10px;
+            height: 28px;
+            width: 500px;
+            margin-top: 10px;
+            background-color: #1C1E13;
+            border-color: gray;
+        }
+        .docs {
+            line-height: 0;
+            margin-left: 10px;
+        }
+        .file {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: 40px;
+        }
+        .file p {
+            color: white;
+        }
+        .filee {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: 40px;
+            color: white;
+            background-color: #5c5656;
+            width: 200px;
+        }
+        .vscode {
+            display: flex;
+            align-items: center;
+            margin-left: 35px;
+        }
+        .vscode strong {
+            color: white;
+        }
+        .center_files {
+            display: flex;
+            margin-left: 260px;
+            margin-top: -195px;
+            gap: 30px;
+            position: relative;
+        }
+        .file1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 7px;
+        }
+        .file12 {
+            background-color: #1E1F21;
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 7px;
+            height: 25px;
+            position: absolute;
+            top: 12px;
+            left: 400px;
+        }
+        .center1 {
+            margin-left: 250px;
+            margin-top: -10px;
+            width: 1260px;
+            height: 800px;
+        }
+    </style>
+    <header>
+        <div class="top">
+            <img src="images/sdfgh.png" alt="" width = "40px" height="30px">
+            <p>File</p>
+            <p>Edit</p>
+            <p>Selection</p>
+            <p>View</p>
+            <p>Go</p>
+            <p>Run</p>
+            <p>Terminal</p>
+            <p>Help</p>
+            <img src="images/arrow (2).png" alt="" width="30px" height="30px">
+            <img src="images/arrow (1).png" alt="" width="30px" height="30px">
+            <input type="search" placeholder="Js">
+            <img src="images/Screenshot 2026-01-12 191440.png" alt="" style="margin-top: -2px; margin-left: 160px;">
+        </div>
+    </header>
+    <hr style="height: 2px; color: rgb(255, 0, 0); border-color: gray; margin-top: -3px;">
+    <div class="container">
+        <div class="left">
+            <img src="images/documents.png" alt="" width="25px" height="25px">
+            <img src="images/search.png" alt="" width="25px" height="25px">
+            <img src="images/version-control.png" alt="" width="30px" height="30px">
+            <img src="images/play.png" alt="" width="25px" height="25px">
+            <img src="images/extension.png" alt="" width="25px" height="25px">
+            <img src="images/share.png" alt="" width="25px" height="25px">
+            <!--<div class="last">
+                <img src="images/user.png" alt="" width="40px" height="40px">
+                <img src="images/gear (2).png" alt="" width="25px" height="25px">
+            </div>-->
+        </div>
+        <div class="left_documents">
+            <div class="expl">
+            <p style="color: rgb(207, 207, 207); font-size: 12px;">EXPLORER</p>
+            <img src="images/more (1).png" alt="" width="10px" height="10px">
+            </div>
+            <div class="vscode">
+                <img src="images/down-arrow.png" alt="" width="22px" height="22px">
+                <strong>JS</strong>
+            </div>
+            <div class="docs">
+            <div class="file">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>4i.html</p>
+            </div>
+            <div class="filee">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>05-quantity.html</p>
+            </div>
+            <div class="file">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>05-variables.html</p>
+            </div>
+            <div class="file">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>index.html</p>
+            </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="center_files">
+            <div class="file1">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>index.html</p>
+            </div>
+            <div class="file1">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>4i.html</p>
+            </div>
+            <div class="file1">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>05-variables.html</p>
+            </div>
+            <div class="file12">
+                <img src="images/code.png" alt="" width="15px" height="15px">
+                <p>05-quantity.html</p>
+            </div>
+            </div>
+            <div class="suret">
+            <img class="center1" src="images/cent.png" alt="">
+            </div>
+    </div>
+</body>
+</html>
